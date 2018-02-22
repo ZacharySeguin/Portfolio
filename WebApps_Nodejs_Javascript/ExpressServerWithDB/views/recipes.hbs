@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> {{title}} </title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>{{title}}</h1>
+  <div class="container">
+    <div class="wrapper">
+      Search by :
+      <select id="option">
+        <option value="ingredient">Ingredient</option>
+        <option value="spice">Spice</option>
+      </select>
+      <input type="text" name="ingredient" id="ingredient" />
+      <button id="submit" onclick="getRecipe()" style="margin-bottom: 50px;">Submit</button>
+    </div>
+  </div>
+  <div id="recipe">
+    {{#each recipeEntries}}
+    <p><a href= 'recipe/{{this.id}}'>{{this.id}} {{this.recipe_name}}</a></p>
+    {{/each}}
+  </div>
+</body>
+</html>

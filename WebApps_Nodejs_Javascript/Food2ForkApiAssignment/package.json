@@ -1,0 +1,16 @@
+{
+  "name": "express_server",
+  "version": "1.0.0",
+  "description": "server built with express.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Abayomi Adebowale",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}

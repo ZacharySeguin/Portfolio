@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Pong</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="pong.js"></script>
+    <style>
+	.button1 {
+    background-color: #14D6F4;
+    border: none;
+    border-radius: 8px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	}
+
+	.button2 {background-color: red;} 
+
+	.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+	}
+
+</style>
+</head>
+<body>
+    <canvas id="pong" width="600" height="400" />
+    </canvas>
+    <p id="instructions">Click either one of the buttons below to select your player.</p>
+    <button class="button1" id="p1">Player1</button>
+    <button class="button1 button2"id="p2">Player2</button>
+    <p><Strong>Game Information: </Strong>This is a simple multiplayer pong game, it is meant to be played by 
+    	two players, but multiple spectators <br> can watch the game.
+    	After any players score, the game will freeze and wait for both players to click on
+    	the screen again before <br>starting a new round. 
+    	After a player reaches a score of 5, that player will be crowned as the winner, and the 
+    	game will reset to <br> it's original player selection phase to be started again. Each time the ball hits a paddle, it increases in speed!
+    </p>
+</body>
+</html>
