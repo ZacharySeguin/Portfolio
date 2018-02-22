@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exam>
+    <question contributor="ZSeguin">
+        <id>1</id>
+        <question_text>A type of service provided by android that shows messages and alerts to user is:
+        </question_text>
+        <options>
+        <answerA>View System</answerA>
+        <answerB>Content Providers</answerB>
+        <answerC>Activity Manager</answerC>
+        <answerD>Notifications Manager</answerD>
+        <answerE>All of the above</answerE>
+        </options>
+    </question>
+    <question contributor="ZSeguin">
+        <id>2</id>
+        <question_text>Most common environment to run Java programs written for PC only is called:
+        </question_text>
+        <options>
+        <answerA>JRE</answerA>
+        <answerB>SDK</answerB>
+        <answerC>IDE</answerC>
+        <answerD>JDK</answerD>
+        <answerE>None of the above</answerE>
+        </options>
+    </question>
+    <question contributor="ZSeguin">
+        <id>3</id>
+        <question_text>In android studio, callback that enable system to destroy an activity is:
+        </question_text>
+        <options>
+        <answerA>onRestart</answerA>
+        <answerB>onStop</answerB>
+        <answerC>onCreate</answerC>
+        <answerD>onDestroy</answerD>
+        <answerE>onPause</answerE>
+        </options>
+    </question>
+    <question contributor="ZSeguin">
+        <id>4</id>
+        <question_text>In android studio, which tab are errors displayed?
+        </question_text>
+        <options>
+        <answerA>logcat</answerA>
+        <answerB>ADB logs</answerB>
+        <answerC>CPU</answerC>
+        <answerD>memory</answerD>
+        <answerE>Terminal</answerE>
+        </options>
+    </question>
+    <question contributor="ZSeguin">
+        <id>5</id>
+        <question_text>What is the numerical range of a char in Java?
+        </question_text>
+        <options>
+        <answerA>-128 to 127</answerA>
+        <answerB>0 to 32767</answerB>
+        <answerC>0 to 65535</answerC>
+        <answerD>0 to 256</answerD>
+        <answerE>None of the above</answerE>
+        </options>
+    </question>
+    <question contributor="ZSeguin">
+        <id>6</id>
+        <question_text>Which one is a valid declaration of a boolean?
+        </question_text>
+        <options>
+        <answerA>boolean b1 = false;</answerA>
+        <answerB>boolean b2 = 1;</answerB>
+        <answerC>boolean b3 = ‘true’</answerC>
+        <answerD>boolean b4 = ‘false’;</answerD>
+        <answerE>bool b5 = 0;</answerE>
+        </options>
+    </question><question contributor="ZSeguin">
+    <id>7</id>
+    <question_text>Which of these is used to perform all input and output operations in Java?
+    </question_text>
+    <options>
+    <answerA>classes</answerA>
+    <answerB>streams</answerB>
+    <answerC>Methods</answerC>
+    <answerD>Variables</answerD>
+    <answerE>Functions</answerE>
+    </options>
+
+</question><question contributor="ZSeguin">
+    <id>8</id>
+    <question_text>Which of these operators is used to allocate memory to array variable in Java?
+    </question_text>
+    <options>
+    <answerA>malloc</answerA>
+    <answerB>calloc</answerB>
+    <answerC>new malloc</answerC>
+    <answerD>alloc</answerD>
+    <answerE>new</answerE> //Answer is E
+    </options>
+</question><question contributor="ZSeguin">
+    <id>9</id>
+    <question_text>Which of these is necessary to specify at time of array initialization?
+    </question_text>
+    <options>
+    <answerA>Row</answerA>
+    <answerB>Both Row and Column</answerB>
+    <answerC>first index</answerC>
+    <answerD>memory</answerD>
+    <answerE>None of the above</answerE>
+    </options>
+</question><question contributor="ZSeguin">
+    <id>10</id>
+    <question_text>Which of these method waits for the thread to terminate?
+    </question_text>
+    <options>
+    <answerA>sleep()</answerA>
+    <answerB>join()</answerB>
+    <answerC>isAlive()</answerC>
+    <answerD>stop()</answerD>
+    <answerE>None of the above</answerE>
+    </options>
+</question><question contributor="ZSeguin">
+    <id>11</id>
+    <question_text>Which of these method is used to find out that a thread is still running or not?
+    </question_text>
+    <options>
+    <answerA>run()</answerA>
+    <answerB>Alive()</answerB>
+    <answerC>isAlive()</answerC>
+    <answerD>checkRun()</answerD>
+    <answerE>None of the above</answerE>
+    </options>
+</question>
+
+</exam>

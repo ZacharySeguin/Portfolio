@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<answers>
+  <question>
+    <id>1</id>
+    <answer>D</answer>
+  </question>
+  <question>
+    <id>2</id>
+    <answer>A</answer>
+  </question>
+  <question>
+    <id>3</id>
+    <answer>D</answer>
+  </question>
+  <question>
+    <id>4</id>
+    <answer>A</answer>
+  </question>
+  <question>
+    <id>5</id>
+    <answer>C</answer>
+  </question>
+  <question>
+    <id>6</id>
+    <answer>A</answer>
+  </question>
+  <question>
+    <id>7</id>
+    <answer>B</answer>
+  </question>
+  <question>
+    <id>8</id>
+    <answer>E</answer>
+  </question>
+  <question>
+    <id>9</id>
+    <answer>A</answer>
+  </question>
+  <question>
+    <id>10</id>
+    <answer>B</answer>
+  </question>
+  <question>
+    <id>11</id>
+    <answer>C</answer>
+  </question>
+</answers>

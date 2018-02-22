@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="8dp"
+        android:padding="24dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/selectA"
+        app:layout_constraintEnd_toEndOf="@+id/selectA"
+        app:layout_constraintStart_toStartOf="@+id/selectA"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <RadioButton
+        android:id="@+id/selectA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="onRadioButtonClicked"
+        android:text="A"
+        app:layout_constraintBottom_toTopOf="@+id/selectB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/selectB"
+        app:layout_constraintTop_toBottomOf="@+id/question_text_view" />
+
+    <RadioButton
+        android:id="@+id/selectB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="onRadioButtonClicked"
+        android:text="B"
+        app:layout_constraintBottom_toTopOf="@+id/selectC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/selectC"
+        app:layout_constraintTop_toBottomOf="@+id/selectA" />
+
+    <RadioButton
+        android:id="@+id/selectC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="onRadioButtonClicked"
+        android:text="C"
+        app:layout_constraintBottom_toTopOf="@+id/selectD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectB" />
+
+    <RadioButton
+        android:id="@+id/selectD"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="onRadioButtonClicked"
+        android:text="D"
+        app:layout_constraintBottom_toTopOf="@+id/selectE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectC" />
+
+    <RadioButton
+        android:id="@+id/selectE"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="onRadioButtonClicked"
+        android:text="E"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectD" />
+
+
+    <Button
+        android:id="@+id/prev_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:drawableLeft="@drawable/arrow_left"
+        android:drawablePadding="4dp"
+        android:text="Prev"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next_button"
+        app:layout_constraintEnd_toStartOf="@+id/next_button"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableRight="@drawable/arrow_right"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prev_button"
+        app:layout_constraintTop_toBottomOf="@+id/selectE"></Button>
+
+
+</android.support.constraint.ConstraintLayout>

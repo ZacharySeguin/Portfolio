@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ldnel.myapplication.Final"
+    tools:showIn="@layout/activity_final">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/finalTxt"
+            android:layout_width="322dp"
+            android:layout_height="105dp"
+            android:text='Congratulations! You completed the quiz. If you would like to return to your answers and change them select "Back To Test" if you are confident with your answers click on the "Submit" button. '
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/reviewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Test"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="164dp" />
+
+
+        <EditText
+            android:id="@+id/editEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email:"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/editStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your Name:"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/editStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Your Student#:"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/userAnswerView"
+            android:layout_width="373dp"
+            android:layout_height="229dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
