@@ -1,0 +1,1 @@
+This directory contains most of my Scheme code written for my Programming Paradigms class (In the form of assignments). 

@@ -1,0 +1,1 @@
+This directory contains most of my Java code done for completed university classes (usually in the form of assignments).
