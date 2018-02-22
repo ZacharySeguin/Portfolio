@@ -1,0 +1,1 @@
+This directory holds most of my C code while working within the Linux Ubuntu environment (accessed through VirtualBox). 

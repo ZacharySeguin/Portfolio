@@ -1,0 +1,1 @@
+This directory holds most of my working android apps, usually completed as assignments for school. 
